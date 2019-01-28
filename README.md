@@ -1,4 +1,5 @@
-# Sparkify-Project Readme - Data Science Capstone - Churn Prediction at Sparkify
+# Sparkify-Project Readme
+## Data Science Capstone - Churn Prediction at Sparkify
 ## Project Definition
 ### Overview
 This project is part of my Data Science Nano-degree at Udacity. In this final project, i will attempt to create a machine learning model, which will be able to predict when users at Sparkify are about to churn. Sparkify is a fictional music service much like Spotify, and to aid me in my creation of this model, they have served me 12GBs of event data.
