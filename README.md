@@ -94,7 +94,5 @@ To achieve the optimal user experience, using more capable hardware9 and moving 
 ❖ Passive text detection (auditory cue on text detection, perhaps with additional information encoded in the tone and volume)
 The user experience could also be improved significantly by using MXNet, which is a deep learning library that is better optimized for mobile devices than TensorFlow. The speedup wouldn’t be enough for running text extraction on the device, but it would reduce the classification delay significantly.
 
-#### If the student chooses to submit a web-application, the following holds: There is a web application that utilizes data to inform how the web application works. The application does not need to be hosted, but directions for how to run the application on a local machine should be documented.
-
 ### References
 For this project, the course material at Udacity has been used for reference. On top of that, the official pySpark documentation has also been used ( https://spark.apache.org/docs/latest/api/python/index.html )
