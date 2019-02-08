@@ -88,10 +88,15 @@ mini_sparkify_event_data.json - starting data file containing the streaming musi
 
 ## Improvement
 To achieve the optimal user experience, using more capable hardware9 and moving the text extraction process from the cloud to the device would be essential. This would reduce the processing time and give access to the outputs of all of the modules of the text extraction pipeline, which would, in turn, enable the following features:
+
 ❖ User-guided reading (e.g. read big text first, or read the text the user is pointing at)
+
 ❖ Better support for languages other than English
+
 ❖ Output filtering (e.g. ignore text smaller than some adjustable threshold)
+
 ❖ Passive text detection (auditory cue on text detection, perhaps with additional information encoded in the tone and volume)
+
 The user experience could also be improved significantly by using MXNet, which is a deep learning library that is better optimized for mobile devices than TensorFlow. The speedup wouldn’t be enough for running text extraction on the device, but it would reduce the classification delay significantly.
 
 ### References
