@@ -77,8 +77,8 @@ Using these features, the Gradient Boosted Trees algorithm was once again traine
 
 The results were much better than the initial attempt. With a F1-score of 89.1% for validation data, and 294 correctly identified churners, the second iteration of the model is a great first model which could be fine-tuned and improved even more.
 
-**Overview of Files
-Primary Files:**
+*Overview of Files*
+**Primary Files:**
 
 data_engineering.py - loads the data from mini_sparkify_event_data.json, cleans the data, performs feature engineering, and returns a dataframe
 data_modeling.py - calls data_engineering.py and samples the data due to class imbalance, splits the data, trains, cross-validates, and saves the best model
