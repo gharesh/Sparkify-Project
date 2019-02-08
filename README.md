@@ -87,7 +87,7 @@ Sparkify.html/ipynb - notebook used for POC in Udacity Workspace
 mini_sparkify_event_data.json - starting data file containing the streaming music provider's user logs
 
 ## Improvement
-To achieve the optimal user experience, using more capable hardware9 and moving the text extraction process from the cloud to the device would be essential. This would reduce the processing time and give access to the outputs of all of the modules of the text extraction pipeline, which would, in turn, enable the following features:
+To achieve the optimal user experience, using more capable hardware and moving the text extraction process from the cloud to the device would be essential. This would reduce the processing time and give access to the outputs of all of the modules of the text extraction pipeline, which would, in turn, enable the following features:
 
 ❖ User-guided reading (e.g. read big text first, or read the text the user is pointing at)
 
