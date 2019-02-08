@@ -77,5 +77,22 @@ Using these features, the Gradient Boosted Trees algorithm was once again traine
 
 The results were much better than the initial attempt. With a F1-score of 89.1% for validation data, and 294 correctly identified churners, the second iteration of the model is a great first model which could be fine-tuned and improved even more.
 
+**Overview of Files
+Primary Files:**
+
+data_engineering.py - loads the data from mini_sparkify_event_data.json, cleans the data, performs feature engineering, and returns a dataframe
+data_modeling.py - calls data_engineering.py and samples the data due to class imbalance, splits the data, trains, cross-validates, and saves the best model
+
+**Notebook Files:**
+
+ExploringData.ipynb - initial notebook that was used to explore the data and work on feature engineering. This is deprecated, as the stable code was moved to data_engineering.py
+SamplingTest.ipynb - this notebook was used to explore data sampling to deal with the class imbalance problem
+RunModeling.ipynb - calls data_modeling.py and displays the output
+lastGBT_run.ipynb - display of last run of GBT model (mem/Spark context errors had previously stopped RunModeling.ipynb at end - adjust JVM memory size accordingly and/or move to Spark cluster)
+
+**Data Files:**
+
+mini_sparkify_event_data.json.bz2 - starting data file containing the streaming music provider's user logs (bzip2 -d before use)
+
 ### References
 For this project, the course material at Udacity has been used for reference. On top of that, the official pySpark documentation has also been used ( https://spark.apache.org/docs/latest/api/python/index.html )
